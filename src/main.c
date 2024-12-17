@@ -31,7 +31,5 @@ int	main(int ac, char **av)
 		}
 		free_stack(&stack_a);
 	}
-	else
-		ft_putstr_fd("Error\n", 2);
 	return (0);
 }

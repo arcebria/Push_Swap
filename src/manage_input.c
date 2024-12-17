@@ -40,8 +40,8 @@ int	put_node(t_stack **stack_a, int n)
 
 long	ft_atol(char *str)
 {
-	int	result;
-	int	sign;
+	long	result;
+	int		sign;
 
 	result = 0;
 	sign = 1;
@@ -61,8 +61,8 @@ long	ft_atol(char *str)
 
 void	start_stack(t_stack **stack_a, char **av)
 {
-	int	i;
-	int	n;
+	int		i;
+	long	n;
 
 	i = 0;
 	while (av[i])
